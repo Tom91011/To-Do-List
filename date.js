@@ -1,5 +1,5 @@
 
-module.exports.getDate = () => {
+exports.getDate = () => {
   const options = {
     weekday: 'long',
     year: 'numeric',
@@ -13,7 +13,7 @@ module.exports.getDate = () => {
   return day
 }
 
-module.exports.getDay = () => {
+exports.getDay = () => {
   const options = {
     weekday: 'long'
   }
